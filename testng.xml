@@ -3,7 +3,7 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="C:/Users/mostafa.abdelhalim/IdeaProjects/Restassured_project" thread-count="2">
         <classes>
-            <class name="api.Tests.DDUserTest">
+            <class name="api.Tests.NotificationTest">
                 <methods>
                     <include name="testCreateUser"/>
                     <include name="TestReadUser"/>

@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 import java.io.IOException;
 
-public class DDUserTest extends Base {
+public class NotificationTest extends Base {
     Base base;
     String sendNotificationBody = "{\n" +
             "  \"channel\": \"sms\",\n" +
