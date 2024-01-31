@@ -6,9 +6,9 @@ import io.restassured.response.Response;
 import static io.restassured.RestAssured.given;
 
 public class Base {
-    public Response postRequest(String endpoint, Object payload) {
+    public Response postRequest(String endpoint, Object payload, String apiKey) {
         Response response = given()
-                .header("API-Key","2e8f142c-4f0a-4b8a-a7b9-1234567890ab")
+                .header("API-Key", apiKey)
                 .contentType(ContentType.JSON)
                 .accept(ContentType.JSON)
 
